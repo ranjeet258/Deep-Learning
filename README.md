@@ -46,6 +46,9 @@ These projects were created to practice and understand the foundations of **Deep
 | Project | Description | Accuracy / Result |
 |----------|--------------|-------------------|
 | MNIST Classifier | Simple CNN for digit recognition | 98.5% |
-| CIFAR-10 | CNN with Data Augmentation | 84% |
-| Sentiment Analysis | LSTM on IMDB dataset | 88% |
-| GAN | Generated handwritten digits | ✅ Successful |
+| Dogs vs Cats (Transfer Learning) | Fine-tuned MobileNetV2 | **Val Acc: 92.1% (5 epochs)** |
+| Image Augmentation (Keras) | Used `ImageDataGenerator` to generate new training samples (rotation, zoom, flip) | ✅ 10 augmented images saved to `/gen-cat` |
+| CIFAR-10 | CNN with Data Augmentation | -- |
+| Sentiment Analysis | LSTM on IMDB dataset | -- |
+| GAN | Generated handwritten digits | --- |
+
